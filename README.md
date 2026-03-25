@@ -11,12 +11,7 @@
 
 ## Overview
 
-This repository contains the image-processing pipeline developed for the paper:
 
-> **Automated Detection and Morphological Analysis of Stellar Sources in Digitized Direct-Image Photographic Plates**  
-> T. A. Zafar, R. Hudec  
-> *Multi-Frequency Behaviour of High Energy Cosmic Sources XV (MULTIF2025)*  
-> Palermo, Italy, June 2025
 
 The pipeline detects stellar sources in 600-dpi TIFF scans of direct-image astronomical photographic plates from the **Sonneberg Observatory** archive using classical computer vision (OpenCV).
 
@@ -73,8 +68,8 @@ pip install -r requirements.txt
 1. Open `detection_pipeline.py` and paste it as a cell in your Colab notebook.
 2. Set your plate path:
 ```python
-PLATE_PATH = '/content/drive/MyDrive/602940.tif'
-SAVE_DIR   = '/content/drive/MyDrive/'
+PLATE_PATH = '602940.tif'
+SAVE_DIR   = '/MyDrive/'
 ```
 3. Run the cell. Output: detection overlay image + printed statistics.
 
@@ -128,8 +123,8 @@ If you use this code, please cite:
   author    = {Zafar, Tauseef Ahmad and Hudec, Ren\'{e}},
   title     = {Automated Detection and Morphological Analysis of Stellar
                Sources in Digitized Direct-Image Photographic Plates},
-  booktitle = {Proceedings of Science -- MULTIF2025},
-  year      = {2025},
+  booktitle = {Proceedings of Science -- MULTIF2026},
+  year      = {2026},
   address   = {Palermo, Italy}
 }
 ```
