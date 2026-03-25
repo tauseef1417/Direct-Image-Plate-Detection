@@ -1,0 +1,20 @@
+# Large plate data — never commit
+*.tif
+*.tiff
+*.fits
+*.fit
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
